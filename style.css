@@ -1,0 +1,160 @@
+/* ============================= */
+/*        GENERAL STYLING        */
+/* ============================= */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+
+    /* Background Image with Dark Overlay */
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("c:\Users\hp\OneDrive - Botswana Accountancy College\VS Code Personal projects\my-github-page\360_F_376965594_ChrglgrICleyWhVVG34STjEDWUy6gE8i.jpg"); /* Change path if needed */
+
+    background-size: cover;       /* Makes image fill entire screen */
+    background-position: center;  /* Centers image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-attachment: fixed; /* Keeps image fixed when scrolling */
+
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ============================= */
+/*            HEADER             */
+/* ============================= */
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+/* ============================= */
+/*         NAVIGATION BAR        */
+/* ============================= */
+
+nav {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+/* ============================= */
+/*         MAIN CONTENT          */
+/* ============================= */
+
+main {
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Section Headings */
+main h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+/* ============================= */
+/*        PRODUCT CARDS          */
+/* ============================= */
+
+.product {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 6px solid #4CAF50;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product h3 {
+    margin-top: 0;
+}
+
+/* ============================= */
+/*            LINKS              */
+/* ============================= */
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ============================= */
+/*             IMAGES            */
+/* ============================= */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #4CAF50;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+/* ============================= */
+/*            FOOTER             */
+/* ============================= */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* ============================= */
+/*         RESPONSIVE DESIGN     */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .product {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+}

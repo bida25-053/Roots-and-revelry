@@ -115,6 +115,45 @@ main h2 {
 }
 
 /* ============================= */
+/*     HOLIDAY SPECIALS SECTION  */
+/* ============================= */
+
+.specials {
+    background-color: #e8f5e9;
+    padding: 25px;
+    margin: 30px 0;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.specials h2 {
+    color: #2E7D32;
+}
+
+
+/* ============================= */
+/*      TREE VARIETY SECTION     */
+/* ============================= */
+
+.tree-variety {
+    background-color: white(255, 255, 255, 0.974);
+    padding: 25px;
+    margin: 30px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tree-variety ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tree-variety li {
+    padding: 8px 0;
+}
+
+/* ============================= */
 /*            LINKS              */
 /* ============================= */
 
@@ -169,4 +208,47 @@ footer {
     header h1 {
         font-size: 1.5em;
     }
+}
+
+/* ============================= */
+/*        CARE GUIDE TABLE       */
+/* ============================= */
+
+.care-table-section {
+    background: white;
+    padding: 25px;
+    margin: 30px 0;
+    border-left: 6px solid #4CAF50;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.care-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #4CAF50; /* OUTER TABLE BORDER */
+}
+
+/* Header Styling */
+.care-table th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: 2px solid #2E7D32; /* Dark green border */
+}
+
+/* Table Cells */
+.care-table td {
+    padding: 12px;
+    border: 1px solid #cccccc; /* Light inner borders */
+}
+
+/* Row Styling */
+.care-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.care-table tr:hover {
+    background-color: #e8f5e9;
+    transition: 0.3s ease;
 }
